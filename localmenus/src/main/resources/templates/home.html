@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>LOCAL MENUS</title>
+</head>
+<style>
+
+#topright{
+    border: none;
+}
+
+#homenav{
+    font-weight: 700;
+}
+
+main > article > .article-section{
+    border: 1px solid #10162f;
+} 
+
+#image{
+    padding-left: 0.1px;
+    padding-right: 15px;
+}
+#topright{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 1px;
+}
+footer{
+    width: 100%;
+    height: 175px;
+    background-color: white;
+    border-top: 1px solid #10162f;
+    display: flex;
+}
+
+
+#created,
+#research,
+#location{
+    padding-left: 2rem;
+    padding-bottom: 10px;
+    flex-basis: calc(100% / 3);
+    flex-grow: 1;
+
+}
+</style>
+<body>
+    <nav>
+        <div id="home" class="navbar">
+            <a style="color:#10162f" id="homenav" href="home.html"> HOME</a>
+        </div>
+        <div id="links1" class="navbar">
+            <a href="asian.html">ASIAN</a>
+        </div>
+        <div id="links2" class="navbar">
+            <a href="western.html">WESTERN</a>
+        </div>
+        <div id="links3" class="navbar">
+            <a href="fastfood.html">DESSERT/CAFE</a>
+        </div>
+    </nav>
+    <main>
+        <article>
+            <div id= "image" class="article-section">
+                <img src="logo.png" alt="MENU LOGO">
+            </div>
+            <div id ="topright" class="article-section">
+                <span><h1>LOCAL MENUS</h1></span>
+                <div id="trinfo">
+                    <span><h2> EVER BEEN IN A SITUATION WHERE YOU DON'T KNOW WHERE TO EAT? LOCAL MENUS, A WEBSITE DEDICATED TO SHOWCASING LOCAL AND NEARBY RESTUARANT. THIS WEBSITE CONSIST OF DIFFERENT TYPES OF FOOD THAT VARIES FROM ASIAN FOOD, WESTERN FOOD, AND FAST FOOD.</h2></span>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div id="created" class="footer">
+            <h3 id="footer-heads"> Creator </h3>
+            <h3 id="info"> HongHay Heng </h3>
+            <h3 id="info"> Sereiuddom Choun </h3>
+        </div>
+        <div id="research" class="footer">
+            <h3 id="footer-heads"> Research </h3>
+            <h3 id="tripadvisor"> <a href="https://www.tripadvisor.com" target="_blank"> Trip Advisor </a></h3>
+        </div>
+        <div id="location" class="footer">
+            <h3 id="footer-heads"> Location </h3>
+            <h3 id="info"> 278H, Street 201R, Kroalkor Village, <br>
+                Sangkat Kilometer 6, Khan Russey Keo, <br>
+                Phnom Penh, Cambodia </h3>
+        </div>
+    </footer>
+</body>
+</html>
